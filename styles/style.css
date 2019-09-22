@@ -1,0 +1,282 @@
+/* Start Font */
+@import url('https://fonts.googleapis.com/css?family=Chilanka&display=swap'); 
+/* End Font */
+
+/* Start Body */
+body {
+    background-color:#e6a6bf;
+    font-family: chilanka;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #ad2744;
+    margin: 0;
+    padding: 0;
+}
+/* End Body */
+
+/* Start Debug */
+.bg-hijau {
+    background-color: #dce152; 
+}
+.bg-olive {
+    background-color: lightgreen;
+}
+.bg-green1 {
+    background-color: green;
+}
+.bg-wheat {
+    background-color: #ad2744;
+}
+.container.full h1,h4{
+    text-align: center; 
+}
+/* End Debug */
+
+/* Start Container */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+/* End Container */
+
+/* Start Logo */
+.logo {
+    text-align: center
+}
+/* End Logo */
+
+/* Start Anchor / hyperlink */
+a:link,
+a:visited {
+    color: darkgreen;
+    text-decoration: none;       
+}
+a:hover,
+a:active {
+    color: darkgreen;
+    text-decoration: bold;
+}
+/* End Anchor / hyperlink */
+
+/* Start Menu Primer */
+.menu-primer ul {
+    background-color: #ad2744;
+    border-radius: 80px;
+    box-shadow:
+        0 3px 5px -1px rgba(0, 0, 0, .2),
+        0 6px 10px 0 rgba(0, 0, 0, .14),
+        0 1px 18px 0 rgba(0, 0, 0, .12);
+}
+
+.menu-primer li {
+    border-right: 30px solid #ad2744;
+    display: inline-block;
+    font-size: 40px;
+}
+
+.menu-primer a {
+    color: #dce152;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 50px 70px;
+    text-transform: uppercase; 
+}
+
+.menu-primer a:hover {
+    background-color: olive;
+    color: tomato; 
+    text-decoration: none;
+}
+
+.menu-primer .active {
+    background-color:#dce152;
+    border-radius: 50px;
+    color: #ad2744;
+    text-decoration: none;
+}
+/* End Menu Primer */
+
+/* Start Heading */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+h1 {
+    font-size: 28px
+}
+h2 {
+    font-size: 24px
+}
+h3 {
+    font-size: 18px
+}
+h4 {
+    font-size: 16px
+}
+h5 {
+    font-size: 18px;
+    font-family: chilanka,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ad2744;
+    letter-spacing: 1px;
+    text-align: center;
+}
+h6 {
+    font-size: 12px;
+}
+h7 {
+    font-size: 18px;
+    font-family: chilanka,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: inherit;
+}
+/* End Heading */
+
+/* Start Jumbotron */
+.jumbotron {
+    background-color: greenyellow;
+    border: 1px solid salmon;
+    border-radius: 4px;
+    padding: 20px 0;
+}
+.jumbotron h1 {
+    font-size: 32px;
+    padding: 0 20px;
+}
+.jumbotron h3 {
+    font-size: 20px;
+    padding: 0 20px;
+}
+/* End Jumbotron */
+
+/* Start Main Home */
+.main-home-one {
+    float: center;
+    width: 100%; 
+}
+.main-home-two {
+    float: right;
+    width: 100%; 
+}
+.main-home-four {
+    float: left;
+    width: 39.5%; 
+}
+.main-home-five {
+    float: right;
+    width: 39.5%; 
+}
+.main-home-three{
+    float: left;
+    width: 39.5%
+}
+.main-home-six{
+    float: right
+    width: 20.5%;
+}
+.main-home-one .box-isi{
+    height: 160px;
+}
+.main-home-two .box-isi {
+    height: 170px;
+}
+.main-home-four,
+.main-home-five{
+    height: 120%;
+}
+/* End Main Home */
+
+/* Start Box */
+.box-heading {
+    background-color:palevioletred;
+    border: 0 solid ;
+    border-radius: 3px 3px 0 0 ;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: inherit;
+}
+.box-heading h5{
+    background-color:palevioletred;
+    border: 0 solid ;
+    border-radius: 3px 3px 0 0 ;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: inherit;
+    font-size: 18px;
+    color:black;
+    margin: 0;
+}
+.box-isi {
+    background-color: #e6a6bf;
+    border: 1 solid tomato;
+    border-top: 0 ;
+    margin: 0;
+    padding:10px 20px 0 20px;
+}
+
+/* End Box */
+
+/*Start Testimonial */
+.testimonial {
+    border-left: 4px solid #dfe2e5;
+    margin-left: 30px;
+    padding-left: 20px;
+}
+/* Start Menu Sekunder */
+.menu-sekunder {
+    background-color: wheat;
+    border-bottom: 3px solid tomato;
+    border-top: 0 ;
+    overflow: auto;
+    padding: 10px 0;
+}
+.menu-sekunder h3{
+    font-size: 14px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.menu-sekunder ul {
+    padding: 0;
+}
+.menu-sekunder li {
+    list-style: disc;
+}
+.menu-sekunder li a,
+.menu-sekunder p {
+    font-size: 15px;
+}
+.menu-sekunder-one,
+.menu-sekunder-two,
+.menu-sekunder-three{
+    float: left;
+}
+.menu-sekunder-one {
+    width: 40%;
+}
+.menu-sekunder-two {
+    width: 30%;
+}
+.menu-sekunder-three{
+    width:20%;
+}
+/* End Menu Sekunder */
+
+/* Start Copyright */
+.copyright p {
+    font-size: 15px;
+}
+
+/* Start Gambar */
+.gambar {
+    margin: 30px;
+}
+/* End Gambar *?/
+
+/* Start Style */
+.style {
+    float: left;
+}
+/* End Style */
+
